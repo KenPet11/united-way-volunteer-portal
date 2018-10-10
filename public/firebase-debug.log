@@ -1,0 +1,79 @@
+[debug] [2018-10-10T13:53:21.845Z] ----------------------------------------------------------------------
+[debug] [2018-10-10T13:53:21.852Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kendy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-10T13:53:21.852Z] CLI Version:   4.2.1
+[debug] [2018-10-10T13:53:21.852Z] Platform:      win32
+[debug] [2018-10-10T13:53:21.852Z] Node Version:  v8.12.0
+[debug] [2018-10-10T13:53:21.853Z] Time:          Wed Oct 10 2018 08:53:21 GMT-0500 (Central Daylight Time)
+[debug] [2018-10-10T13:53:21.853Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-10T13:53:21.870Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-10T13:53:21.871Z] > authorizing via signed-in user
+[debug] [2018-10-10T13:53:21.873Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-10T13:53:21.874Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-10-10T13:53:22.138Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T13:53:22.160Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/united-way-volunteer-portal  
+ 
+[debug] [2018-10-10T13:53:23.101Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T13:53:23.105Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/united-way-volunteer-portal  
+ 
+[debug] [2018-10-10T13:53:23.952Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\kendy\UnitedWayVolunteerPortal'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-10-10T13:53:24.005Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/828870816152/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-10T13:53:24.647Z] <<< HTTP RESPONSE 200
+[info] i  hosting[united-way-volunteer-portal]: Serving hosting files from: public
+[info] +  hosting[united-way-volunteer-portal]: Local server: http://localhost:5000
+[debug] [2018-10-10T13:56:17.778Z] ----------------------------------------------------------------------
+[debug] [2018-10-10T13:56:17.783Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kendy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-10T13:56:17.783Z] CLI Version:   4.2.1
+[debug] [2018-10-10T13:56:17.783Z] Platform:      win32
+[debug] [2018-10-10T13:56:17.783Z] Node Version:  v8.12.0
+[debug] [2018-10-10T13:56:17.784Z] Time:          Wed Oct 10 2018 08:56:17 GMT-0500 (Central Daylight Time)
+[debug] [2018-10-10T13:56:17.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-10T13:56:17.798Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-10T13:56:17.799Z] > authorizing via signed-in user
+[debug] [2018-10-10T13:56:17.803Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/united-way-volunteer-portal  
+ 
+[debug] [2018-10-10T13:56:18.647Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T13:56:18.661Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/united-way-volunteer-portal  
+ 
+[debug] [2018-10-10T13:56:19.454Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\kendy\UnitedWayVolunteerPortal'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-10-10T13:56:19.491Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/828870816152/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-10T13:56:20.032Z] <<< HTTP RESPONSE 200
+[info] i  hosting[united-way-volunteer-portal]: Serving hosting files from: public
+[info] +  hosting[united-way-volunteer-portal]: Local server: http://localhost:5000
+[debug] [2018-10-10T14:28:49.829Z] ----------------------------------------------------------------------
+[debug] [2018-10-10T14:28:49.834Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\kendy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-10-10T14:28:49.834Z] CLI Version:   4.2.1
+[debug] [2018-10-10T14:28:49.834Z] Platform:      win32
+[debug] [2018-10-10T14:28:49.834Z] Node Version:  v8.12.0
+[debug] [2018-10-10T14:28:49.835Z] Time:          Wed Oct 10 2018 09:28:49 GMT-0500 (Central Daylight Time)
+[debug] [2018-10-10T14:28:49.835Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-10T14:28:49.853Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-10T14:28:49.855Z] > authorizing via signed-in user
+[debug] [2018-10-10T14:28:49.859Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/united-way-volunteer-portal  
+ 
+[debug] [2018-10-10T14:28:50.818Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-10T14:28:50.832Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/united-way-volunteer-portal  
+ 
+[debug] [2018-10-10T14:28:51.977Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\kendy\UnitedWayVolunteerPortal'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-10-10T14:28:52.006Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/828870816152/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-10T14:28:52.553Z] <<< HTTP RESPONSE 200
+[info] i  hosting[united-way-volunteer-portal]: Serving hosting files from: public
+[info] +  hosting[united-way-volunteer-portal]: Local server: http://localhost:5000
