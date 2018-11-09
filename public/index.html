@@ -5,6 +5,7 @@
   <link rel="import" href="bower_components/platinum-sw/platinum-sw-elements.html">
   <link rel="import" href="bower_components/polymerfire/firebase-app.html">
   <link rel="import" href="unitedway-app.html">
+  <link rel="import" href="bower_components/pf-calendar-events-data/pf-calendar-events-data.html">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,6 +40,12 @@
         auth-domain="united-way-volunteer-portal.firebaseapp.com"
         database-url="https://united-way-volunteer-portal.firebaseio.com">
     </firebase-app>
+    <pf-calendar-events-data
+        databasename="United Way Volunteer Portal"
+        databasepath="testdata"
+        eventsData="{{results}}"
+        filterAttr="color"
+        filterValue="green"></pf-calendar-events-data>
     <unitedway-app></unitedway-app>
   </body> 
 </html>
