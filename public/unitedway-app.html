@@ -1,19 +1,18 @@
-<link rel="import" href="bower_components/note-app-elements/na-elements.html">
+<link rel="import" href="bower_components/note-app-elements/na-elements.html"> 
+<link rel="import" href="bower_components/united-way-app-elements/uw-elements.html">
+<link rel="import" href="bower_components/pf-calendar/pf-calendar.html">
+<link rel="import" href="bower_components/pf-calendar-events/pf-calendar-events.html">
+<link rel="import" href="bower_components/pf-calendar-events-data/pf-calendar-events-data.html">
 <link rel="import" href="bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <link rel="import" href="bower_components/polymerfire/polymerfire.html">
 
 <dom-module id="unitedway-app">
   <template>
     <style include="note-app-shared-styles"></style>
-    <na-toolbar
+    <uw-toolbar
         signed-in="[[signedIn]]"
         on-sign-out="signOut">
-    </na-toolbar>
-    <na-login
-        on-sign-in="signIn"
-        signed-in="[[signedIn]]"
-        disabled="[[!online]]">
-    </na-login>
+    </uw-toolbar>
     <firebase-auth
         id="auth"
         app-name="United Way Volunteer Portal"
@@ -21,17 +20,13 @@
         signed-in="{{signedIn}}"
         user="{{user}}">
     </firebase-auth>
-    <paper-fab
-        icon="add"
-        on-tap="create"
-        disabled="[[!online]]"
-        aria-label="Add note">
-    </paper-fab>
-    <na-editor
-        id="editor"
-        note="{{editableNote}}"
-        on-close="commitChange">
-    </na-editor>
+    <pf-calendar-events
+    	data='[
+        	{ "eventName": "Sandwich Making", "category": "Food Preparation", "color": "orange","date":"1491322091394" },
+                { "eventName": "Giants vs Packers", "category": "Event Supervision", "color": "yellow","date":"1499185140000" },
+                { "eventName": "Bell Ringing", "category": "Fund Raising", "color": "blue","date":"1491581940000" },
+                { "eventName": "Public Holiday", "category": "Holiday", "color": "green","date":"1494173940000" }]'>
+    </pf-calendar-events>
     <firebase-document
         id="document"
         app-name="United Way Volunteer Portal"
